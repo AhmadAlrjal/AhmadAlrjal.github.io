@@ -111,9 +111,9 @@ document.getElementById("myForm").onsubmit = function(e) {
 
     // 9. Twitter Icon
     let twitter = document.querySelector("a.twitter");
-    let userTwitter = document.getElementById("https://twitter.com/AhmadAlrjal");
+    let userTwitter = document.getElementById("twitter_url").value;
     if (userTwitter !== "") {
-      twitter.href = userTwitter;
+      twitter.href = https:/twitter.com/AhmadAlrjal;
     } else {
       twitter.remove();
     }
